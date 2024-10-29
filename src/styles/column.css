@@ -1,0 +1,87 @@
+/* Column container styles */
+.column {
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 300px;
+    
+    margin: 10px;
+    flex: 1;
+}
+
+/* Container to hold columns, allowing wrapping */
+.board-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+/* Column header styles */
+.column-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+/* Column title styles */
+.column-title {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+    display: flex;
+    align-items: center;
+}
+
+/* Icons within the column title */
+.column-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.plus-icon, .three-dot-menu {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+/* Card container */
+.card-container {
+    border-radius: 8px;
+    padding: 15px;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+/* Flex rules to ensure no horizontal scroll bar appears, wrap columns */
+@media (min-width: 1024px) {
+    .board-container {
+        justify-content: flex-start;
+    }
+
+    .column {
+        flex-basis: 24%; /* Adjust so max 4 columns fit in a row */
+    }
+}
+
+/* Styling for card title and tags */
+.card-title {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+}
+
+.card-tag {
+    font-size: 12px;
+    color: #666;
+    background-color: #f1f1f1;
+    border-radius: 4px;
+    padding: 2px 6px;
+    display: inline-block;
+}

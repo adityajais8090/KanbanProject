@@ -1,0 +1,29 @@
+/* Tag section */
+.tag-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Icon placeholder */
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    color: #555;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Tag label */
+.tag {
+    padding: 5px 8px;
+    border-radius: 15px;
+    background-color: #e0e0e0;
+    color: #555;
+    font-size: 12px;
+}

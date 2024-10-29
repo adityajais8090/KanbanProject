@@ -1,0 +1,78 @@
+/* Updated home.css */
+
+.p-10{
+  padding: 5px 10px;
+}
+
+.f-16{
+  font-size: 16px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.board-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #e6e6fa; /* Light background for the entire board */
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.board-container {
+    display: flex;
+    gap: 20px; /* Reduced gap for tighter spacing between containers */
+    flex-wrap: wrap; /* Allows containers to wrap to the next row */
+    justify-content: space-between; /* Space out items evenly */
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.scrollable {
+  max-height: 500px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+/* Smooth scroll effect */
+.scrollable::-webkit-scrollbar {
+  width: 8px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #cbd5e1;
+  border-radius: 4px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: transparent;
+}

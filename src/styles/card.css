@@ -1,0 +1,64 @@
+/* Card container */
+.card {
+    width : 270px;
+    
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    font-size: 14px;
+    transition: box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+.card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Card header */
+.card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+/* Card ID */
+.card-id {
+    font-size: 12px;
+    color: #6b7280;
+    font-weight: 600;
+}
+
+/* Profile image */
+.profile-image img {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+/* Card title */
+.card-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+
+/* Tag section */
+.tag-section {
+    display: flex;
+    gap: 8px;
+}
+
+/* Tag styles */
+.tag {
+    background-color: #f3f4f6;
+    color: #6b7280;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-weight: 500;
+    border: 1px solid #e5e7eb;
+}

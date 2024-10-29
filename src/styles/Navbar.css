@@ -1,0 +1,83 @@
+.top-header {
+    padding-left: 10px;
+}
+
+.displayButton {
+    position: relative;
+    margin-right: 15px; /* Add right margin to create space between elements */
+    padding: 10px; /* Add padding for extra spacing inside the display button */
+}
+
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.dropOnClick {
+    position: absolute;
+    width: 250px;
+    background-color: #f8f8fa;
+    border-radius: 10px;
+    margin-top: 10px;
+    z-index: 10;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dropOnClick > * {
+    width: 100%;
+}
+
+.btn {
+    background: #f8f8fa;
+    border: 1px solid silver;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.selectGroup {
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.selectStyle {
+    width: 100px;
+    border-radius: 5px;
+    background: white;
+    padding: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    outline: none;
+}
+
+.flex-sb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-gap-10 {
+    display: flex;
+    gap: 10px;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.f-16 {
+    font-size: 16px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px; /* Adjust this value to control the space between icon and text */
+}
